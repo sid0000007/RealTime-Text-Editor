@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#editor{
+    width: 70%;
+    background-color: #fff;
+    margin: 10px auto 10px auto !important;
+    min-height: 100vh;
+}
+
+.ql-toolbar.ql-snow{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    background-color: #e3e9e9;
+}
